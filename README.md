@@ -180,5 +180,3 @@ Kode voucher yang bisa dicoba:
 ## Lisensi
 
 MIT. Lihat file [LICENSE](LICENSE).
-
-Dibangun dengan bantuan E1 (Emergent AI).
