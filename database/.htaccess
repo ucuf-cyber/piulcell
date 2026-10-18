@@ -1,0 +1,5 @@
+# Block direct access to database/ folder
+<FilesMatch ".*">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

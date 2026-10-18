@@ -1,0 +1,99 @@
+[17-Jun-2026 07:50:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\laragon\www\piulcell\app\Core\Database.php:26
+Stack trace:
+#0 C:\laragon\www\piulcell\app\Core\Database.php(26): PDO->prepare('UPDATE products...')
+#1 C:\laragon\www\piulcell\app\Core\Database.php(60): Database::q('UPDATE products...', Array)
+#2 C:\laragon\www\piulcell\app\Controllers\Admin\AdminCore.php(84): Database::update('products', Array, 'id=?', Array)
+#3 C:\laragon\www\piulcell\app\Core\Router.php(58): AdminProductsController->edit('10')
+#4 C:\laragon\www\piulcell\app\Core\Router.php(30): Router->invoke('AdminProductsCo...', Array)
+#5 C:\laragon\www\piulcell\public\index.php(46): Router->dispatch()
+#6 C:\laragon\www\piulcell\public\router.php(47): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\piulcell\app\Core\Database.php on line 26
+[17-Jun-2026 07:50:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\laragon\www\piulcell\app\Core\Database.php:26
+Stack trace:
+#0 C:\laragon\www\piulcell\app\Core\Database.php(26): PDO->prepare('UPDATE products...')
+#1 C:\laragon\www\piulcell\app\Core\Database.php(60): Database::q('UPDATE products...', Array)
+#2 C:\laragon\www\piulcell\app\Controllers\Admin\AdminCore.php(84): Database::update('products', Array, 'id=?', Array)
+#3 C:\laragon\www\piulcell\app\Core\Router.php(58): AdminProductsController->edit('10')
+#4 C:\laragon\www\piulcell\app\Core\Router.php(30): Router->invoke('AdminProductsCo...', Array)
+#5 C:\laragon\www\piulcell\public\index.php(46): Router->dispatch()
+#6 C:\laragon\www\piulcell\public\router.php(47): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\piulcell\app\Core\Database.php on line 26
+[17-Jun-2026 07:50:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\laragon\www\piulcell\app\Core\Database.php:26
+Stack trace:
+#0 C:\laragon\www\piulcell\app\Core\Database.php(26): PDO->prepare('UPDATE products...')
+#1 C:\laragon\www\piulcell\app\Core\Database.php(60): Database::q('UPDATE products...', Array)
+#2 C:\laragon\www\piulcell\app\Controllers\Admin\AdminCore.php(84): Database::update('products', Array, 'id=?', Array)
+#3 C:\laragon\www\piulcell\app\Core\Router.php(58): AdminProductsController->edit('10')
+#4 C:\laragon\www\piulcell\app\Core\Router.php(30): Router->invoke('AdminProductsCo...', Array)
+#5 C:\laragon\www\piulcell\public\index.php(46): Router->dispatch()
+#6 C:\laragon\www\piulcell\public\router.php(47): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\piulcell\app\Core\Database.php on line 26
+[17-Jun-2026 07:51:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\laragon\www\piulcell\app\Core\Database.php:26
+Stack trace:
+#0 C:\laragon\www\piulcell\app\Core\Database.php(26): PDO->prepare('UPDATE products...')
+#1 C:\laragon\www\piulcell\app\Core\Database.php(60): Database::q('UPDATE products...', Array)
+#2 C:\laragon\www\piulcell\app\Controllers\Admin\AdminCore.php(84): Database::update('products', Array, 'id=?', Array)
+#3 C:\laragon\www\piulcell\app\Core\Router.php(58): AdminProductsController->edit('10')
+#4 C:\laragon\www\piulcell\app\Core\Router.php(30): Router->invoke('AdminProductsCo...', Array)
+#5 C:\laragon\www\piulcell\public\index.php(46): Router->dispatch()
+#6 C:\laragon\www\piulcell\public\router.php(47): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\piulcell\app\Core\Database.php on line 26
+[17-Jun-2026 07:51:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters in C:\laragon\www\piulcell\app\Core\Database.php:26
+Stack trace:
+#0 C:\laragon\www\piulcell\app\Core\Database.php(26): PDO->prepare('UPDATE products...')
+#1 C:\laragon\www\piulcell\app\Core\Database.php(60): Database::q('UPDATE products...', Array)
+#2 C:\laragon\www\piulcell\app\Controllers\Admin\AdminCore.php(84): Database::update('products', Array, 'id=?', Array)
+#3 C:\laragon\www\piulcell\app\Core\Router.php(58): AdminProductsController->edit('10')
+#4 C:\laragon\www\piulcell\app\Core\Router.php(30): Router->invoke('AdminProductsCo...', Array)
+#5 C:\laragon\www\piulcell\public\index.php(46): Router->dispatch()
+#6 C:\laragon\www\piulcell\public\router.php(47): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\piulcell\app\Core\Database.php on line 26
+[19-Jun-2026 01:30:09 UTC] PHP Warning:  Undefined variable $newCustomers in C:\laragon\www\piulcell\app\Views\owner\report_pdf.php on line 66
+[19-Jun-2026 01:42:35 UTC] PHP Warning:  Undefined variable $newCustomers in C:\laragon\www\piulcell\app\Views\owner\report_pdf.php on line 66
+[19-Jun-2026 01:58:24 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=22499000 distance=192.49916124267
+[19-Jun-2026 01:58:24 UTC] [Shipping] matched zone id=5 name=Luar Kota (>60 km) base=25000 perKm=500 raw=121249.58062134
+[19-Jun-2026 01:58:24 UTC] [Shipping] cost final=0
+[19-Jun-2026 01:58:26 UTC] [Shipping] calc request lat=-6.297538 lng=106.795959 subtotal=22499000 distance=3.6476434226048
+[19-Jun-2026 01:58:26 UTC] [Shipping] matched zone id=1 name=Lokal (0ÔÇô5 km) base=5000 perKm=500 raw=6823.8217113024
+[19-Jun-2026 01:58:26 UTC] [Shipping] cost final=0
+[19-Jun-2026 01:58:27 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=22499000 distance=192.49916124267
+[19-Jun-2026 01:58:27 UTC] [Shipping] matched zone id=5 name=Luar Kota (>60 km) base=25000 perKm=500 raw=121249.58062134
+[19-Jun-2026 01:58:27 UTC] [Shipping] cost final=0
+[19-Jun-2026 02:10:17 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=3999000 distance=192.49916124267
+[19-Jun-2026 02:10:17 UTC] [Shipping] matched zone id=5 name=Luar Kota (>60 km) base=25000 perKm=500 raw=121249.58062134
+[19-Jun-2026 02:10:17 UTC] [Shipping] cost final=122000
+[19-Jun-2026 02:11:45 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=3999000 distance=192.49916124267
+[19-Jun-2026 02:11:45 UTC] [Shipping] matched zone id=5 name=Luar Kota (>60 km) base=25000 perKm=0 raw=25000
+[19-Jun-2026 02:11:45 UTC] [Shipping] cost final=25000
+[19-Jun-2026 10:16:44 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=4999000 distance=19.763643997643
+[19-Jun-2026 10:16:44 UTC] [Shipping] matched zone id=3 name=Dalam Kota (15ÔÇô30 km) base=15000 perKm=0 raw=15000
+[19-Jun-2026 10:16:44 UTC] [Shipping] cost final=15000
+[19-Jun-2026 10:16:54 UTC] [Shipping] calc request lat=-6.297538 lng=106.795959 subtotal=4999000 distance=201.81404535428
+[19-Jun-2026 10:16:54 UTC] [Shipping] matched zone id=5 name=Luar Kota (>60 km) base=25000 perKm=0 raw=25000
+[19-Jun-2026 10:16:54 UTC] [Shipping] cost final=25000
+[19-Jun-2026 10:16:56 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=4999000 distance=19.763643997643
+[19-Jun-2026 10:16:56 UTC] [Shipping] matched zone id=3 name=Dalam Kota (15ÔÇô30 km) base=15000 perKm=0 raw=15000
+[19-Jun-2026 10:16:56 UTC] [Shipping] cost final=15000
+[19-Jun-2026 10:16:57 UTC] [Shipping] calc request lat=-6.297538 lng=106.795959 subtotal=4999000 distance=201.81404535428
+[19-Jun-2026 10:16:57 UTC] [Shipping] matched zone id=5 name=Luar Kota (>60 km) base=25000 perKm=0 raw=25000
+[19-Jun-2026 10:16:57 UTC] [Shipping] cost final=25000
+[19-Jun-2026 10:16:58 UTC] [Shipping] calc request lat=-6.8041625 lng=108.4277596 subtotal=4999000 distance=19.763643997643
+[19-Jun-2026 10:16:58 UTC] [Shipping] matched zone id=3 name=Dalam Kota (15ÔÇô30 km) base=15000 perKm=0 raw=15000
+[19-Jun-2026 10:16:58 UTC] [Shipping] cost final=15000
+[20-Jun-2026 00:03:42 UTC] [Shipping] calc request lat=-6.9714888 lng=108.4342066 subtotal=3899000 distance=6.5245771342952
+[20-Jun-2026 00:03:42 UTC] [Shipping] matched zone id=2 name=Sekitar Kota (5ÔÇô15 km) base=10000 perKm=800 raw=15219.661707436
+[20-Jun-2026 00:03:42 UTC] [Shipping] cost final=16000
+[20-Jun-2026 00:06:26 UTC] [Shipping] calc request lat=-6.9714888 lng=108.4342066 subtotal=3899000 distance=6.5245771342952
+[20-Jun-2026 00:06:26 UTC] [Shipping] matched zone id=2 name=Sekitar Kota (<15 km) base=10000 perKm=0 raw=10000
+[20-Jun-2026 00:06:26 UTC] [Shipping] cost final=10000
+[21-Jun-2026 06:57:20 UTC] [Shipping] calc request lat=-6.9714888 lng=108.4342066 subtotal=3999000 distance=6.5245771342952
+[21-Jun-2026 06:57:20 UTC] [Shipping] matched zone id=2 name=Sekitar Kota (<15 km) base=10000 perKm=0 raw=10000
+[21-Jun-2026 06:57:20 UTC] [Shipping] cost final=10000
+[21-Jun-2026 07:14:30 UTC] [Shipping] calc request lat=-6.9714888 lng=108.4342066 subtotal=3999000 distance=6.5245771342952
+[21-Jun-2026 07:14:30 UTC] [Shipping] matched zone id=2 name=Sekitar Kota (<15 km) base=10000 perKm=0 raw=10000
+[21-Jun-2026 07:14:30 UTC] [Shipping] cost final=10000
